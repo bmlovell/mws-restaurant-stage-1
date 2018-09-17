@@ -13,10 +13,12 @@ p {
 body {
 	background-color: #fdfdfd;
 	margin: 0;
-  position:relative;
+  position: relative;
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
+  width: 100%;
 }
 ul, 
 li {
@@ -216,7 +218,7 @@ nav h1 a {
   max-height: 170px;
   position: relative;
 } 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: rgb(33, 102, 148);
   font-family: Arial,sans-serif;
   font-size: 14pt;
